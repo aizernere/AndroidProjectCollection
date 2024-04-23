@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AndroidProjectCollection</string>
+    <string name="txtName1">aizerner</string>
+    <string name="txtName2">malt</string>
+    <string name="txtName3">simon</string>
+    <string name="txtName4">gelo</string>
+    <string name="txtName5">budler</string>
+    <string name="txtName6">gloc9</string>
+    <string name="txtName7">alJames</string>
+    <string name="txtName8">flowG</string>
+    <string name="txtName9">AMD</string>
+    <string name="txtName10">Intel</string>
+    <string name="txtName11">Nvidia</string>
+    <string name="txtClose">Close</string>
+    <string name="txtToast">Toast</string>
+    <string name="txtChangeBG">Dark Mode</string>
+    <string name="txtBtnChangeBG">Change Button BG</string>
+    <string name="txtDisappear">Disappear</string>
+    <string name="txtReturn">Return</string>
+    <string name="txtLayoutExercise">Layout Exercise</string>
+    <string name="txtButtonExercise">Button Exercise</string>
+    <string name="txtCalc">Calculator</string>
+    <string name="txtGame0">Midterm</string>
+    <string name="txtGame1">Match 3</string>
+    <string name="txtPass">Passing Intents</string>
+    <string name="txtFrag">Fragments</string>
+    <string name="txtMenu">Menus</string>
+    <string name="lblStudentForm">Student Registration Form</string>
+    <string name="lblComplete">Complete Name</string>
+    <string name="lblFirst">First Name</string>
+    <string name="lblLast">Last Name</string>
+    <string name="lblGender">Gender</string>
+    <string name="lblMale">Male</string>
+    <string name="lblFemale">Female</string>
+    <string name="lblOthers">Others</string>
+    <string name="lblBirth">Birth Date</string>
+    <string name="lblPhone">Phone (+63)</string>
+    <string name="lblEmail">Email Address</string>
+    <string name="lblAddress">Home Address</string>
+    <string-array name="year_level">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
