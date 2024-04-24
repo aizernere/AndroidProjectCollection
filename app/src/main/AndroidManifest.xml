@@ -12,37 +12,40 @@
         android:theme="@style/Theme.AndroidProjectCollection"
         tools:targetApi="31">
         <activity
+            android:name=".MenuExercise"
+            android:exported="false" />
+        <activity
             android:name=".PassingIntentsExercise2"
             android:exported="false" />
         <activity
             android:name=".LayoutExercise"
             android:exported="false"
-            android:label="Layout Exercise"></activity>
+            android:label="Layout Exercise" />
         <activity
             android:name=".ButtonExercise"
             android:exported="false"
-            android:label="Button Exercise"></activity>
+            android:label="Button Exercise" />
         <activity
             android:name=".CalculatorExercise"
             android:exported="false"
-            android:label="Calculator"></activity>
+            android:label="Calculator" />
         <activity
             android:name=".EmptyActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".Batch2"
             android:exported="false"
-            android:label="Tic Tac Toe"></activity>
+            android:label="Tic Tac Toe" />
         <activity
             android:name=".Match3"
             android:configChanges="orientation"
             android:exported="false"
-            android:label="Match 3"></activity>
+            android:label="Match 3" />
         <activity
             android:name=".PassingIntentsExercise"
             android:configChanges="orientation"
             android:exported="false"
-            android:label="Student Form"></activity>
+            android:label="Student Form" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

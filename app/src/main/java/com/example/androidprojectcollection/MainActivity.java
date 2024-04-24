@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnLayout;
     Button btnExercise;
     Button btnCalculator;
-    Button btnGame,btnGame2,btnPassing;
+    Button btnGame,btnGame2,btnPassing,btnMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +72,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, PassingIntentsExercise.class);
+                startActivity(intent);
+            }
+        });
+        btnMenu = findViewById(R.id.btnMenus);
+        btnMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MenuExercise.class);
                 startActivity(intent);
             }
         });
